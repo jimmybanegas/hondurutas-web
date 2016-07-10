@@ -1,0 +1,16 @@
+{
+  "name": "ExploraHN",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Transportation for everyone",
+  "repository": "https://github.com/jimmybanegas93/hondurutas-web",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.7"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+
+    "prestart": "npm install"
+  }
+}
